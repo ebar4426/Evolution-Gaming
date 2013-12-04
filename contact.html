@@ -1,19 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
 	<title>Evolution Gaming</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width">
+
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	</head>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+</head>
 
 	<body>
-		<div>
-			<header>
+		<div class="container">
+			<header class="grid_12">
 				<h1>Evolution Gaming</h1>
 			</header>
-			<nav>
+			<nav class="grid_12">
 	<ul id="nav">
 		<li class="nv"><a href="index.html" class="an">Home</a></li>
 		<li class="nv"><a href="xbox.html" class="an">Xbox-One</a></li>
@@ -21,15 +35,36 @@
 		<li class="nv"><a href="contact.html" class="an">Contact Us</a></li>
 	</ul>
 			</nav>
-
-			<div>
-
+			<h2 class="grid_2 prefix_5 suffix_5">Contact Us</h2>
+			<p class="grid_6 prefix_3 suffix_3">If you have any request for a certain game review or have any issues please feel free to contact us to help us help your experience on our site an enjoyable one.</p>
+		<form method="get" action="contact.html">
+			<div class="grid_3 prefix_3 suffix_5">
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname">
 			</div>
+			<div class="grid_3 prefix_3 suffix_5">
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname">
+			</div>
+			<div class="grid_3 prefix_3 suffix_5">
+			<label for="email">Email Address</label>
+			<input type="text" name="email" id="email">
+			</div>
+			<div class="grid_3 prefix_3 suffix_5">
+			<label for="message">Message</label>
+			<textarea cols="50" rows="4" name="message"></textarea>
+			</div>
+			<p class="grid_4 prefix_3 suffix_5">
+			<input type="submit" value="Submit" id="submit">
+			</p>
+		</form>
+
 
 			<footer>
-				<p>
-				</p>
+			<p class="grid_12">Copyright &copy; 2013 Evolution Gaming Company</p>
 			</footer>
 		</div>
-	</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>

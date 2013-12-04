@@ -1,19 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Evolution Gaming</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	</head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+	<title>Evolution Gaming</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+</head>
 	<body>
-		<div>
-			<header>
+		<div class="container">
+			<header class="grid_12">
 				<h1>Evolution Gaming</h1>
 			</header>
-			<nav>
+			<nav class="grid_12">
 	<ul id="nav">
 		<li class="nv"><a href="index.html" class="an">Home</a></li>
 		<li class="nv"><a href="xbox.html" class="an">Xbox-One</a></li>
@@ -21,10 +34,9 @@
 		<li class="nv"><a href="contact.html" class="an">Contact Us</a></li>
 	</ul>
 			</nav>
-
-			<div>
-				<img src="images/killzonelogo.jpg" width="600" alt="killzone box art logo" title="Killzone image" />
-				<h2>Killzone: Shadow Fall</h2>
+				<img src="images/killzonelogo.jpg" alt="killzone box art logo" title="Killzone image" class="grid_12" />
+				<h2 class="grid_10 prefix_1 suffix_1">Killzone: Shadow Fall</h2>
+				<section class="grid_10 prefix_1 suffix_1">
 				<p>Review sorce <a href="http://www.giantbomb.com">www.giantbomb.com</a> Written by Jeff Gerstmann on November 17, 2013  </p>
 				<p>If you're specifically looking for Killzone's unique brand of mixed-mode multiplayer, where the shooting seamlessly migrates from deathmatch to capture and hold to a series of other objectives without pausing or reloading the map, Killzone: Shadow Fall offers that with some interesting ideas that make it slightly more accessible and give it more options than its predecessor. It's a quality multiplayer shooter paired with a lackluster campaign that starts out with promise that it completely squanders by the time the credits roll. </p>
 
@@ -37,7 +49,7 @@
 				</p>
 				<p>The multiplayer follows a lot of the popular concepts in persistent multiplayer shooter design, with loadouts that you can customize with different primary weapons, pistols, and abilities. Furthermore, all these items are broken out across three classes, so scouts get the sniper rifles and cloaking device, support guys lay down LMG fire and revive downed teammates, and assault takes standard rifles, speed boosts, and other middle-of-the-road abilities. Unlike most of those other multiplayer shooters, most of the options in Shadow Fall's class system are available right off the bat, with no unlocking required. The abilities will level up and become more effective as you use them, and weapon attachments like flashlights, laser sights, under-barrel shotguns, and scopes unlock as you use each of the weapons. But there aren't any experience points to earn and no levels to gain. Instead the game ranks you by the number of challenges you've completed, and there are well over a thousand, ranging from weapon- or ability-specific sets of tasks to things like being the MVP once on each of the game's maps. It's an interesting approach, but since there are still things to unlock, you'll still be working to fine-tune your loadouts to your liking as you play.
 				</p>
-				<p>The competitive end of Killzone: Shadow Fall looks sharp and runs at a faster frame rate than the single-player, and it has that signature Killzone pacing to it that makes it feel different and more deliberate than the modern-military shooters that dominate the genre these days. The weapons are loud and satisfying to fire. The kills take just enough ammo to feel like you earned them. And you'll be able to focus on a lot more than just shooting people in the face. The way the warzones can be configured means you'll always have something slightly different to try. You can built your own server configuration by setting a map rotation, allowing or disallowing any of the specific weapons and abilities, forcing factions to play as specific classes, setting a number of respawns, allowing or disallowing bots, and so on. This means that if you want to limit the action to just beacon retrieval missions and search & destroy sections while ensuring that every player is using a pistol, you can. In fact, as of this writing, that mode is up and already available. The level of match customization helps keep things fresh since you can get out and find players playing in a variety of different ways.
+				<p>The competitive end of Killzone: Shadow Fall looks sharp and runs at a faster frame rate than the single-player, and it has that signature Killzone pacing to it that makes it feel different and more deliberate than the modern-military shooters that dominate the genre these days. The weapons are loud and satisfying to fire. The kills take just enough ammo to feel like you earned them. And you'll be able to focus on a lot more than just shooting people in the face. The way the warzones can be configured means you'll always have something slightly different to try. You can built your own server configuration by setting a map rotation, allowing or disallowing any of the specific weapons and abilities, forcing factions to play as specific classes, setting a number of respawns, allowing or disallowing bots, and so on. This means that if you want to limit the action to just beacon retrieval missions and search &amp; destroy sections while ensuring that every player is using a pistol, you can. In fact, as of this writing, that mode is up and already available. The level of match customization helps keep things fresh since you can get out and find players playing in a variety of different ways.
 				</p>
 				<p>That level of customization can clash with the way player loadouts are built and saved, though. If you go into a warzone with restrictions on which equipment you can use, the game doesn't give you a separate set of appropriate loadouts or build new defaults that are tailored for the current ruleset, so the first time you join up you have to frantically create new combinations of items and save them to one of the four slots you get for each class. If you're only flipping between standard rules and a pistols-only warzone, this isn't a big deal. But if you start to jump around from one set of rules to another and create your own along the way, you'll find yourself constantly overwriting your slots. The game could be better about handling part of this process for you, but the level of choice you're given over creating a server and tweaking the rules is worth the bit of discomfort up-front.
 				</p>
@@ -47,13 +59,14 @@
 				</p>
 				<p>Killzone: Shadow Fall is a real mix of highs and lows, so where you come out on it will depend on your interests. If you don't care about campaigns in your first-person shooters, Killzone provides a solid alternative to the modern-military games that are all the rage these days. It's highly configurable and the developers claim to have multiple free updates in mind for future expansion. But if you want a story and like to shoot your way through a great campaign, Shadow Fall has too much downtime and too many frustrating moments to recommend.
 				</p>
-				<a href="http://www.youtube.com/watch?v=-rBAkj5Egok">Watch the Trailer</a>
-			</div>
+				</section>
+				<a href="http://www.youtube.com/watch?v=-rBAkj5Egok" class="grid_9 prefix_1 suffix_2">Watch the Trailer</a>
 
 			<footer>
-				<p>
-				</p>
+				<p class="grid_12">Copyright &copy; 2013 Evolution Gaming Company</p>
 			</footer>
 		</div>
-	</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
