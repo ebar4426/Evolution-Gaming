@@ -1,3 +1,4 @@
+
 /*
 Responsive 996px grid system ~ Style CSS.
 Copyright 2013, Josh Cope
@@ -6,8 +7,35 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
+
+body{
+	background: #252525;
+}
+#home_nav:hover{
+	background: url("../images/home button1.png");
+}
+#xbox_nav:hover{
+	background: url("../images/home button1.png");
+}
+#ps4_nav:hover{
+	background: url("../images/home button1.png");
+}
+#con_nav:hover{
+	background: url("../images/home button1.png");
+}
+
+#logo{
+	background-color: #252525;
+	overflow: hidden;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
 nav li{
-	display: inline;
+	display: block;
+	margin: 0px;
+	padding: 0px;
 } 
 
 /* =============================================================================
