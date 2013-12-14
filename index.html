@@ -13,6 +13,7 @@
 
 	<meta name="viewport" content="width=device-width">
 	
+	<link href='http://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/base.css">
@@ -35,13 +36,24 @@
 			</header>
 			<nav class="grid_12">
 	<ul>
-		<li class="nv"><a href="index.html" ><img src="images/home button.png" id="home_nav"class="grid_3 alpha"/></a></li>
-		<li class="nv"><a href="xbox.html" ><img src="images/xbox-one button.png" id="xbox_nav" class="grid_3"/></a></li>
-		<li class="nv"><a href="ps4.html" ><img src="images/playstation 4 button.png" id="ps4_nav" class="grid_3" /></a></li>
+		<li class="nv"><a href="index.html" ><img src="images/home button.png" id="home_nav"class="grid_3"/></a></li>
+		<li class="nv"><a href="xbox.html" ><img src="images/xbox-one button.png" id="xbox_nav" class="grid_3"/></a>
+			<ul>
+				<li><a href="deadr.html">Deadrising 3</a></li>
+				<li><a href="forza5.html" id="forza">Forza 5</a></li>
+			</ul>
+		</li>
+		<li class="nv"><a href="ps4.html" ><img src="images/playstation 4 button.png" id="ps4_nav" class="grid_3" /></a>
+			<ul>
+				<li><a href="killzone.html">Killzone Shadow Fall</a></li>
+				<li><a href="knack.html">Knack</a></li>
+			</ul>
+		</li>
 		<li class="nv"><a href="contact.html" ><img src="images/contact us button.png" id="con_nav" class="grid_3 omega"/></a></li>
 	</ul>
 			</nav>	
-			<img src="images/Slogan.png" alt="slogan" title="slogan" class="grid_12" />
+			<img src="images/Slogan.png" alt="slogan" title="slogan" class="grid_12" id="slogan" />
+			<section id="con1">
 			<div id="both_con">
 			<a href="xbox.html"><img src="images/xbox-onesm.jpg" alt="xbox-one logo" title="xbox-one" class="grid_6"/></a>
 			<a href="ps4.html"><img src="images/playstation4sm.jpg" alt="Playstation 4 logo" title="playstation4"class="grid_6" /></a>
@@ -50,20 +62,33 @@
 			</p>
 			<h2 class="grid_12" id="head">Game Reviews</h2>
 			<img src="images/Rectangle 5.png" class="grid_12" id="divbar" />
-			<section class="grid_12">
-			<a href="deadr.html"><img src="images/dr3sm1.jpg" alt="Deadrising3 box cover" title="Deadrising3" class="grid_2 alpha" /></a>
-			<div class="grid_10 omega">
-			<h3>DeadRising 3</h3>
-			<p>"The third outing of Capcom's other, more ridiculous zombie franchise ably walks the line between approachability and the series' trademark off-the-wall quirk". <a href="deadr.html">Read More</a>
+			<div class="grid_6">
+			<div id="xgameone">
+			<a href="deadr.html"><img src="images/dr3sm.jpg" alt="Deadrising3 box cover" title="Deadrising3" class="grid_2 alpha" /></a>
+			<!--<h3>DeadRising 3</h3>-->
+			<img src="images/Deadrising 3 game text.png" alt="Deadrising 3" title="Deadrising 3" class="grid_3" />
+			<p class="grid_3 omega">"The third outing of Capcom's other, more ridiculous zombie franchise ably walks the line between approachability and the series' trademark off-the-wall quirk". <a href="deadr.html">Read More</a>
 			</p>
 			</div>
-			</section>
-			<a href="killzone.html"><img src="images/killzone1.jpg" alt="killzone box art" title="Killzone: ShadowFall" class="grid_2 alpha" /></a>
-			<div class="grid_10 omega">
-			<h3>Killzone: Shadow Fall</h3>
-			<p>"The campaign is a real drag, but Shadow Fall's multiplayer props up the package with its fun, configurable action". <a href="killzone.html">Read more</a>
-			</p>			
+			<div id="xgametwo">
+			<a href="forza5.html"><img src="images/forza-5box.jpg" alt="forza box art" title="Forza 5" class="grid_2 alpha" /></a>
+			<img src="images/forza 5 game text.png" alt="Forza 5" title="Forza 5" class="grid_3"/>
+			<p class="grid_3 omega">"On one level, Forza 5 is everything it should be: the kind of launch title that makes you glad you’ve coughed up for a new console". <a href="forza5.html">Read More</a>
+			</p>
 			</div>
+			</div>
+			<div class="grid_6" id="pgames">
+			<a href="knack.html"><img src="images/knackbox.png" alt="Knack box art" title="Knack" class="grid_2 alpha" /></a>
+			<img src="images/Knack game text.png" alt="Knack" title="Knack text" class="grid_3"/>
+			<p class="grid_3 omega">"Knack is a platformer from the mind of Mark Cerny, mind of Crash Bandicoot, Jak and Daxter and Uncharted in which you play as a small hero called Knack". <a href="knack.html">Read More</a>
+			</p>
+			<a href="killzone.html"><img src="images/killzone.jpg" alt="killzone box art" title="Killzone: ShadowFall" class="grid_2 alpha" /></a>
+			<!--<h3>Killzone: Shadow Fall</h3>-->
+			<img src="images/Killzone Shadow Fall game text.png" alt="Killzone text" title="Killzone" class="grid_3" />
+			<p class="grid_3 omega">"The campaign is a real drag, but Shadow Fall's multiplayer props up the package with its fun". <a href="killzone.html">Read more</a>
+			</p>	
+			</div>	
+		</section>
 			<footer>
 				<p class="grid_12">Copyright &copy; 2013 Evolution Gaming Company</p>
 			</footer>

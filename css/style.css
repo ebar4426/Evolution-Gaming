@@ -9,7 +9,7 @@ Copyright 2013, Josh Cope
    ========================================================================== */
 
 body{
-	background: #252525;
+	background: url("../images/background1.jpg")
 }
 /*=========================Navigation=========================================*/
 #home_nav:hover{
@@ -29,16 +29,64 @@ body{
 	background-color: #252525;
 	overflow: hidden;
 }
-ul{
+nav ul{
 	margin: 0px;
 	padding: 0px;
+	position: absolute;
+
 }
 nav li{
 	display: block;
 	margin: 0px;
 	padding: 0px;
 } 
-/*==============================================================================*/
+nav ul ul{
+	display: none;
+}
+nav ul li:hover{
+	background: #ff7f00;
+}
+nav ul li:hover > ul{
+	display: block;
+
+}
+nav ul li {
+	float: left;
+}
+nav ul li:hover a {
+	color: #fff;
+}
+	
+nav ul li a {
+		display: block;
+		text-decoration: none;
+}
+nav ul ul{
+	margin: 39px 0px 0px 0px;
+}
+nav ul ul li {
+	float: none; 
+	position: relative;
+}
+nav ul ul li a {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	padding: 5px 50px;
+	color: #fff;
+	font-family: 'Electrolize', sans-serif;
+	background: #252525;
+}	
+
+nav ul ul li a:hover {
+		background: #ff7f00;
+}
+#slogan{
+	margin-top: 40px;
+}
+
+/*
+==============================================================================*/
+
 #head{
 	margin-bottom: 0px;
 	padding-bottom: 0px;
@@ -49,14 +97,22 @@ nav li{
 	padding-bottom: 7px;
 }
 #both_con{
-	margin-top: 7em;
+	margin-top: 9em;
 }
 h2{
 	font-family: 'Electrolize', sans-serif;
 	color: #ff7f00;
 }
+
 p{
+	font-family: 'Radley', serif;
 	color: #fff
+}
+#forz{
+	margin-bottom: 0px;
+}
+#for_content{
+	background: #363636;
 }
 /* =============================================================================
    Page Styles
