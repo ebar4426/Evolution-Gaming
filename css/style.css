@@ -11,6 +11,7 @@ Copyright 2013, Josh Cope
 body{
 	background: #252525;
 }
+/*=========================Navigation=========================================*/
 #home_nav:hover{
 	background: url("../images/home button1.png");
 }
@@ -37,7 +38,26 @@ nav li{
 	margin: 0px;
 	padding: 0px;
 } 
-
+/*==============================================================================*/
+#head{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#divbar{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 7px;
+}
+#both_con{
+	margin-top: 7em;
+}
+h2{
+	font-family: 'Electrolize', sans-serif;
+	color: #ff7f00;
+}
+p{
+	color: #fff
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
