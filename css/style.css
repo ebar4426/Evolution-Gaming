@@ -11,7 +11,6 @@ Copyright 2013, Josh Cope
 body{
 	background: url("../images/background1.jpg");
 	
-	background-repeat: x-axis;
 }
 /*=========================Navigation=========================================*/
 #home_nav:hover{
