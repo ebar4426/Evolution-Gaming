@@ -147,7 +147,12 @@ iframe{
 #cont{
 	margin-bottom: 0px;
 }
+/*======================================Knack.html styles========================*/
 #knackimgone,#knackimgtwo,#knackimgthree{
+	margin-bottom: 20px;
+}
+/*======================================DeadRising3.html styles========================*/
+#deadrisingone,#deadrisingtwo,#deadrisingthree{
 	margin-bottom: 20px;
 }
 /* =============================================================================
