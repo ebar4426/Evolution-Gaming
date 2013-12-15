@@ -147,6 +147,9 @@ iframe{
 #cont{
 	margin-bottom: 0px;
 }
+#contone{
+	margin-bottom: 0px;
+}
 /*======================================Knack.html styles========================*/
 #knackimgone,#knackimgtwo,#knackimgthree{
 	margin-bottom: 20px;
@@ -219,12 +222,22 @@ iframe{
 #fortrail{
 	height: 280px;
 }	
+#logo2{
+	display: none;
+}
 	
-	
-	
-	
-	
-
+#slogan{
+	display: none;
+}	
+#both_con{
+	margin-top: 18em;
+}	
+#firstimg{
+	margin-top: 18em;
+}
+#contone{
+	margin-top: 12em;
+}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size */
@@ -234,6 +247,21 @@ iframe{
 }
 #forzavidrev{
 	height: 170px;
+}
+#logo2{
+	display: none;
+}
+#slogan{
+	display: none;
+}
+#both_con{
+	margin-top: 18em;
+}	
+#firstimg{
+	margin-top: 11em;
+}
+#contone{
+	margin-top: 8em;
 }
 }
 /* =============================================================================
