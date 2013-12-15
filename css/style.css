@@ -229,14 +229,28 @@ iframe{
 #slogan{
 	display: none;
 }	
-#both_con{
-	margin-top: 18em;
-}	
+	
 #firstimg{
 	margin-top: 18em;
 }
 #contone{
 	margin-top: 12em;
+}
+nav ul{
+	position: relative;
+}
+nav ul li {
+	float: none;
+	overflow: hidden;
+}
+nav ul ul li a {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	padding: 20px 50px;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Electrolize', sans-serif;
+	background: #252525;
 }
 }
 
@@ -254,14 +268,28 @@ iframe{
 #slogan{
 	display: none;
 }
-#both_con{
-	margin-top: 18em;
-}	
-#firstimg{
-	margin-top: 11em;
-}
+
 #contone{
 	margin-top: 8em;
+}
+nav ul{
+	position: relative;
+}
+nav ul li {
+	float: none;
+	overflow: hidden;
+}
+nav ul ul li a {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	padding: 15px 55px;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Electrolize', sans-serif;
+	background: #252525;
+}
+nav ul ul{
+	margin: 0px 0px 0px 0px;
 }
 }
 /* =============================================================================
