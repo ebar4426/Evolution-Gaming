@@ -1188,7 +1188,7 @@
   border-bottom-color: #fff;
   opacity: 0.75;
   filter: alpha(opacity=75);;
-#HCB_comment_box .submit {
+#HCB_comment_box .submit{
   background:none; /* Clear twitter bootstrap style. */
   background-color: #ff7f00;
   border:1px solid #000000;
