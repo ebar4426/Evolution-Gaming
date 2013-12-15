@@ -108,11 +108,35 @@ p{
 	font-family: 'Radley', serif;
 	color: #fff
 }
+h3{
+	font-family: 'Electrolize', sans-serif;
+	color: #ff7f00;
+}
+a{
+	text-decoration: none;
+	color: #ce1d22;
+	font:"Copperplate Gothic Light"	
+}
+
+/*============================Forza.html styles================================*/
 #forz{
 	margin-bottom: 0px;
 }
 #for_content{
 	background: #363636;
+}
+#forzaimgone,#forzaimgtwo,#forzaimgthree{
+	margin-bottom: 20px;
+}
+.titleforvid{
+	margin-bottom: 5px;
+}
+iframe{
+	margin-bottom: 15px;
+	border: 0px
+}
+#divbarone{
+	margin-left: 0px;
 }
 /* =============================================================================
    Page Styles
@@ -123,18 +147,57 @@ p{
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+#fortrail{
+	height: 380px;
+}
+
+	
+	
+	
+	
+	
+	
+}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+	
+#fortrail{
+	height: 280px;
+}
+#forzavidrev{
+	height: 270px;
+}		
+	
+	
+	
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+#fortrail{
+	height: 280px;
+}	
+	
+	
+	
+	
+	
+
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
-
-
+@media only screen and (max-width: 479px) {
+#fortrail{
+	height: 180px;
+}
+#forzavidrev{
+	height: 170px;
+}
+}
 /* =============================================================================
    Font-Face
    ========================================================================== */
