@@ -117,7 +117,9 @@ a{
 	color: #ce1d22;
 	font:"Copperplate Gothic Light"	
 }
-
+footer p{
+	background: #464646;
+}
 /*============================Forza.html styles================================*/
 #forz{
 	margin-bottom: 0px;
@@ -137,6 +139,13 @@ iframe{
 }
 #divbarone{
 	margin-left: 0px;
+}
+/*======================================Contact.html styles===========================*/
+#divider{
+	margin-left: 0px;
+}
+#cont{
+	margin-bottom: 0px;
 }
 /* =============================================================================
    Page Styles
