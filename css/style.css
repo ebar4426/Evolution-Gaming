@@ -155,6 +155,27 @@ iframe{
 #deadrisingone,#deadrisingtwo,#deadrisingthree{
 	margin-bottom: 20px;
 }
+/*======================================Killzone.html styles========================*/
+#killzoneimgone,#killzoneimgtwo,#killzoneimgthree{
+	margin-bottom: 20px;
+}
+/*======================================xbox.html styles========================*/
+#tecxbox{
+	color: #FFFFFF;
+	font-family: 'Radley', serif;
+}
+#xreview{
+	margin-bottom: 0px;
+}
+#one{
+	margin-right: 0px;
+}
+#two{
+	margin-left: 0px;
+}
+#gamesfor{
+	background: ##363636;
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
