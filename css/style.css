@@ -1,4 +1,3 @@
-
 /*
 Responsive 996px grid system ~ Style CSS.
 Copyright 2013, Josh Cope
@@ -9,7 +8,7 @@ Copyright 2013, Josh Cope
    ========================================================================== */
 
 body{
-	background: url("../images/background1.jpg");
+	background: url("../images/background1.jpg") transparent;
 	
 }
 /*=========================Navigation=========================================*/
